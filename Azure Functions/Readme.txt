@@ -3,6 +3,15 @@ https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/
 Solution:
 https://github.com/UtpalMaiti/AZ-204-DevelopingSolutionsforMicrosoftAzure/tree/master/Allfiles/Labs/02/Solution/func
 
+Azure Functions Custom Handlers Documentation:
+  https://docs.microsoft.com/en-us/azure/azure-functions/functions-custom-handlers
+
+Rust and Go Quickstart Examples:
+  https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-other?tabs=go%2Cwindows
+
+What's in the "Extension Bundle":
+  https://github.com/Azure/azure-functions-extension-bundles/blob/v2.x/src/Microsoft.Azure.Functions.ExtensionBundle/extensions.json
+
 
 
 Azure Functions offers several types of functions, each designed for different purposes. Here are the main types:

@@ -52,7 +52,32 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastructureAsCode", "Inf
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "func", "Examples\Solution\func\func.csproj", "{E585115F-E956-474F-AAC3-68B797B49ABA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "func", "Examples\func\func.csproj", "{B8746517-47F4-4EB4-8B0E-D88E3DDD6774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableFunctionApp", "Examples\DurableFunctionApp\DurableFunctionApp\DurableFunctionApp.csproj", "{3F2045E2-21A6-4C7E-9182-967ECDEB9A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessFuncs", "Examples\serverless-funcs\ServerlessFuncs\ServerlessFuncs.csproj", "{A51DDD69-CE19-4996-8DF9-F1CB7C41B421}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure Functions", ".", "{26C69013-A2CD-4EBD-AD12-EAA0916538DD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51208"
+		Debug.AspNetCompiler.PhysicalPath = "..\Azure Functions\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51208\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51208"
+		Release.AspNetCompiler.PhysicalPath = "..\Azure Functions\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51208\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51208"
+		SlnRelativePath = "..\Azure Functions\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -136,10 +161,22 @@ Global
 		{108A5FE1-0D88-4E43-8774-1FEBF40FCC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108A5FE1-0D88-4E43-8774-1FEBF40FCC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108A5FE1-0D88-4E43-8774-1FEBF40FCC02}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E585115F-E956-474F-AAC3-68B797B49ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E585115F-E956-474F-AAC3-68B797B49ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E585115F-E956-474F-AAC3-68B797B49ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E585115F-E956-474F-AAC3-68B797B49ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8746517-47F4-4EB4-8B0E-D88E3DDD6774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8746517-47F4-4EB4-8B0E-D88E3DDD6774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8746517-47F4-4EB4-8B0E-D88E3DDD6774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8746517-47F4-4EB4-8B0E-D88E3DDD6774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2045E2-21A6-4C7E-9182-967ECDEB9A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2045E2-21A6-4C7E-9182-967ECDEB9A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2045E2-21A6-4C7E-9182-967ECDEB9A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2045E2-21A6-4C7E-9182-967ECDEB9A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -163,6 +200,8 @@ Global
 		{90A54E62-D992-4AB0-9C16-7A1329013858} = {C3305C97-251A-4D2A-AF4F-3DFECDFA1978}
 		{5A1CC058-A1D5-4E10-B95E-3449BB711416} = {C3305C97-251A-4D2A-AF4F-3DFECDFA1978}
 		{108A5FE1-0D88-4E43-8774-1FEBF40FCC02} = {11CBE657-CA4A-413E-AD52-FB52C2C5A4B6}
-		{E585115F-E956-474F-AAC3-68B797B49ABA} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
+		{B8746517-47F4-4EB4-8B0E-D88E3DDD6774} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
+		{3F2045E2-21A6-4C7E-9182-967ECDEB9A80} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
+		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
 	EndGlobalSection
 EndGlobal
