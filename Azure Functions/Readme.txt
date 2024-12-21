@@ -1,3 +1,10 @@
+Guidence:
+https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_02.html
+Solution:
+https://github.com/UtpalMaiti/AZ-204-DevelopingSolutionsforMicrosoftAzure/tree/master/Allfiles/Labs/02/Solution/func
+
+
+
 Azure Functions offers several types of functions, each designed for different purposes. Here are the main types:
 ### 1. **HTTP Trigger Functions**
 These functions respond to HTTP requests. They are commonly used to build RESTful APIs.
