@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTPTriggerFunctionApp", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{5FF565E3-B23B-45DD-B374-BA7756A97944}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functions", "Functions", "{C3305C97-251A-4D2A-AF4F-3DFECDFA1978}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FunctionsTypes", "FunctionsTypes", "{C3305C97-251A-4D2A-AF4F-3DFECDFA1978}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFE8E249-703C-479A-8C38-C3DCD12FD2D3}"
 	ProjectSection(SolutionItems) = preProject
