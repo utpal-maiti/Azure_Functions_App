@@ -58,28 +58,30 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurableFunctionApp", "Examp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessFuncs", "Examples\serverless-funcs\ServerlessFuncs\ServerlessFuncs.csproj", "{A51DDD69-CE19-4996-8DF9-F1CB7C41B421}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure Functions", ".", "{26C69013-A2CD-4EBD-AD12-EAA0916538DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp", "Examples\FunctionApp\FunctionApp\FunctionApp.csproj", "{36010803-A480-463D-BF37-CB103533D31C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{53A8E9B9-8D7E-4DED-995C-79C490490FD1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_Functions_App", "..\", "{9596AB4B-510A-4D83-9D3C-27E123BCDC73}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_51208"
-		Debug.AspNetCompiler.PhysicalPath = "..\Azure Functions\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51208\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52252"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Azure_Functions_App\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52252\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_51208"
-		Release.AspNetCompiler.PhysicalPath = "..\Azure Functions\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51208\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52252"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Azure_Functions_App\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52252\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "51208"
-		SlnRelativePath = "..\Azure Functions\"
+		VWDPort = "52252"
+		SlnRelativePath = "..\..\Azure_Functions_App\"
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp", "Examples\FunctionApp\FunctionApp\FunctionApp.csproj", "{36010803-A480-463D-BF37-CB103533D31C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -175,14 +177,14 @@ Global
 		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{36010803-A480-463D-BF37-CB103533D31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{36010803-A480-463D-BF37-CB103533D31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36010803-A480-463D-BF37-CB103533D31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36010803-A480-463D-BF37-CB103533D31C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9596AB4B-510A-4D83-9D3C-27E123BCDC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9596AB4B-510A-4D83-9D3C-27E123BCDC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9596AB4B-510A-4D83-9D3C-27E123BCDC73}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9596AB4B-510A-4D83-9D3C-27E123BCDC73}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -205,7 +207,12 @@ Global
 		{A0FE4419-8FFC-4DFC-A32E-B9CC35E43B35} = {C3305C97-251A-4D2A-AF4F-3DFECDFA1978}
 		{90A54E62-D992-4AB0-9C16-7A1329013858} = {C3305C97-251A-4D2A-AF4F-3DFECDFA1978}
 		{5A1CC058-A1D5-4E10-B95E-3449BB711416} = {C3305C97-251A-4D2A-AF4F-3DFECDFA1978}
+		{5FF565E3-B23B-45DD-B374-BA7756A97944} = {53A8E9B9-8D7E-4DED-995C-79C490490FD1}
+		{C3305C97-251A-4D2A-AF4F-3DFECDFA1978} = {53A8E9B9-8D7E-4DED-995C-79C490490FD1}
+		{CFE8E249-703C-479A-8C38-C3DCD12FD2D3} = {53A8E9B9-8D7E-4DED-995C-79C490490FD1}
+		{11CBE657-CA4A-413E-AD52-FB52C2C5A4B6} = {53A8E9B9-8D7E-4DED-995C-79C490490FD1}
 		{108A5FE1-0D88-4E43-8774-1FEBF40FCC02} = {11CBE657-CA4A-413E-AD52-FB52C2C5A4B6}
+		{CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E} = {53A8E9B9-8D7E-4DED-995C-79C490490FD1}
 		{B8746517-47F4-4EB4-8B0E-D88E3DDD6774} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
 		{3F2045E2-21A6-4C7E-9182-967ECDEB9A80} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
 		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
