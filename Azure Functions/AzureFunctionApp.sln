@@ -79,6 +79,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure Functions", ".", "{26
 		SlnRelativePath = "..\Azure Functions\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp", "Examples\FunctionApp\FunctionApp\FunctionApp.csproj", "{36010803-A480-463D-BF37-CB103533D31C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{26C69013-A2CD-4EBD-AD12-EAA0916538DD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{36010803-A480-463D-BF37-CB103533D31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36010803-A480-463D-BF37-CB103533D31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36010803-A480-463D-BF37-CB103533D31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36010803-A480-463D-BF37-CB103533D31C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -203,5 +209,6 @@ Global
 		{B8746517-47F4-4EB4-8B0E-D88E3DDD6774} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
 		{3F2045E2-21A6-4C7E-9182-967ECDEB9A80} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
 		{A51DDD69-CE19-4996-8DF9-F1CB7C41B421} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
+		{36010803-A480-463D-BF37-CB103533D31C} = {CDFDC8A2-3FE6-4C97-89A9-5BFA5432C00E}
 	EndGlobalSection
 EndGlobal
