@@ -1,6 +1,6 @@
 # example 1 - calling with a valid function key (n.b. this key is no longer valid!)
 iwr -Method POST `
-    -Uri "https://pluralsightfuncsarm.azurewebsites.net/api/OnPaymentReceived?code=NEq9oTOPsjdRQz4/Y63X9128BOoHsozr8/J3uws59X3neC40e7RVPg==" `
+    -Uri "https://pluralsightfuncsarm.azurewebsites.net/api/OnPaymentReceived?code=[BLANK]" `
     -Body '{ "OrderId":"200", "Email":"example@test.com", "ProductId":"X200" }' `
     -Headers @{ "Content-Type"="application/json" }
     
@@ -16,11 +16,11 @@ iwr -Method POST `
     -Uri "https://pluralsightfuncsarm.azurewebsites.net/api/OnPaymentReceived" `
     -Body '{ "OrderId":"202", "Email":"example@test.com", "ProductId":"X202" }' `
     -Headers @{ "Content-Type"="application/json"
-                "x-functions-key"="NEq9oTOPsjdRQz4/Y63X9128BOoHsozr8/J3uws59X3neC40e7RVPg==" }
+                "x-functions-key"="[BLANK]" }
 
 # example 4 - calling after "renewing" the key will result in 401 unauthorized again
 iwr -Method POST `
     -Uri "https://pluralsightfuncsarm.azurewebsites.net/api/OnPaymentReceived" `
     -Body '{ "OrderId":"203", "Email":"example@test.com", "ProductId":"X203" }' `
     -Headers @{ "Content-Type"="application/json"
-                "x-functions-key"="NEq9oTOPsjdRQz4/Y63X9128BOoHsozr8/J3uws59X3neC40e7RVPg==" }
+                "x-functions-key"="[BLANK]" }
